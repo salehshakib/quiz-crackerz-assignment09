@@ -18,9 +18,9 @@ const Header = () => {
                             </label>
                             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-neutral">
 
-                                <li><Link to="/courses" className='hover:text-primary'>Courses</Link></li>
-                                <li><Link to="/statistics" className='hover:text-primary'>Statistics</Link></li>
-                                <li><Link to="/blog" className='hover:text-primary'>Blog</Link></li>
+                                <li><Link to="/courses" className='hover:text-primary font-medium'>Courses</Link></li>
+                                <li><Link to="/statistics" className='hover:text-primary font-medium'>Statistics</Link></li>
+                                <li><Link to="/blog" className='hover:text-primary font-medium'>Blog</Link></li>
                             </ul>
                         </div>
                         <img src={logo} alt="" className='w-[40px]' />
@@ -30,9 +30,9 @@ const Header = () => {
                     </div>
                     <div className="navbar-end">
                         <div className='hidden md:block mr-5'>
-                            <NavLink to="/courses" className='px-2 hover:text-primary'>Courses</NavLink>
-                            <NavLink to="/statistics" className='px-2  hover:text-primary'>Statistics</NavLink>
-                            <NavLink to="/blog" className='px-2  hover:text-primary'>Blog</NavLink>
+                            <NavLink to="/courses" className='px-2 hover:text-primary font-medium'>Courses</NavLink>
+                            <NavLink to="/statistics" className='px-2  hover:text-primary font-medium'>Statistics</NavLink>
+                            <NavLink to="/blog" className='px-2  hover:text-primary font-medium'>Blog</NavLink>
                         </div>
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">

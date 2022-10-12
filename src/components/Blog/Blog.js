@@ -2,8 +2,8 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div>
-            <h1>This is Blog page</h1>
+        <div className='mt-20 min-h-[100vh]'>
+            
         </div>
     );
 };

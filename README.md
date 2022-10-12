@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## git links and live server
+## Git Links and Live Server
 
 `Git link` 
 

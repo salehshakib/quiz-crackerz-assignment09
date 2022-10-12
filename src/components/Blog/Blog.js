@@ -30,7 +30,7 @@ const Blog = () => {
                             It can be used to store a mutable value that does not cause a re-render when updated.
                         </li>
                         <li className='mx-10'>It can be used to access a DOM element directly.</li>
-                        <li className='mx-10'>If we tried to count how many times our application renders using the useState Hook, we would be caught in an infinite loop since this Hook itself causes a re-render. useRef() only returns one item. It returns an Object called curren</li>
+                        <li className='mx-10'>If we tried to count how many times our application renders using the useState Hook, we would be caught in an infinite loop since this Hook itself causes a re-render. useRef() only returns one item. </li>
                     </p>
 
                 </div>

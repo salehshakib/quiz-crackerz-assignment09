@@ -9,6 +9,10 @@ const Home = () => {
     const coursesData = useLoaderData();
     const courses = coursesData.data;
 
+    const takeQuiz = (selectedId) => {
+        console.log(selectedId);
+    }
+
 
     return (
         // min-h-[100vh]
@@ -37,6 +41,7 @@ const Home = () => {
                         courses.map(course => <Courses
                             key={course.id}
                             course={course}
+                            takeQuiz={takeQuiz}
                         ></Courses>)
                     }
                 </div>

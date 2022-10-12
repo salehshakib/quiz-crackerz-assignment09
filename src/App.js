@@ -1,10 +1,13 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Main from './layouts/Main';
+import Home from './components/Home/Home'
+import Quiz from './components/Quiz/Quiz'
 import Statistics from './components/Statistics/Statistics'
 import Blog from './components/Blog/Blog'
-import Home from './components/Home/Home'
+
 import Error from './components/Error/Error'
+import { quizLoader } from './components/loaders/quizLoader';
 
 function App() {
   const router = createBrowserRouter([
@@ -37,6 +40,10 @@ function App() {
 
       ]
 
+    },
+    {
+      path: '/quiz/:id',
+      element: <Quiz></Quiz>,
     },
 
   ])

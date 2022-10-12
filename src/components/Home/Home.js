@@ -10,7 +10,7 @@ const Home = () => {
     const courses = coursesData.data;
 
     const takeQuiz = (selectedId) => {
-        console.log(selectedId);
+        //console.log(selectedId);
     }
 
 

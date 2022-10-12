@@ -1,11 +1,15 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { useEffect } from 'react';
 
 
 const Statistics = () => {
     const coursesData = useLoaderData();
     const courses = coursesData.data;
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className='mt-40 min-h-[100vh] flex justify-center'>

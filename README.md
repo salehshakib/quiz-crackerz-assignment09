@@ -5,9 +5,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Git Links and Live Server
 
 `Git link` 
+https://github.com/programming-hero-web-course2/b6-quiz-crackerz-salehshakib.git
 
+`Live-server` 
 
-`Live-server`
+https://quiz-whiz-salehshakib.netlify.app/
+
+## Description
+
+I have built this website using react , tailwindcss and tailwind component which is daisy UI.
+i have used react router dom to route the path. And useLoaderData hooks to fetch data from api. I have used rechart for my statistic data. 
+the user can give quiz and see the answers real quick using the website.
+
 
 ## Available Scripts
 

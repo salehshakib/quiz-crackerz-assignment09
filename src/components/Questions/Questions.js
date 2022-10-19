@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import Options from "../Options/Options";
 import { ToastContainer, toast } from "react-toastify";

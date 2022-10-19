@@ -2,10 +2,6 @@
 # Quiz Whiz
 
 A basic quiz taking website.
-
-
-
-
 ## Live Server
 
 https://quiz-whiz-salehshakib.netlify.app/

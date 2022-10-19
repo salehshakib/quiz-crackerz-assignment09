@@ -17,3 +17,8 @@ https://quiz-whiz-salehshakib.netlify.app/
 * I have used rechart for my statistic data. 
 * Tailwindcss and Tailwind component (Daisy Ui).
 * The user can give quiz and see the answers real quick using the website.
+## Features
+
+- User Friendly
+- Responsive for mobile and desktop version.
+
